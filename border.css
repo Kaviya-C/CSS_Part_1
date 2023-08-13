@@ -1,0 +1,61 @@
+p.dotted{
+ border:5px dotted red;  
+  
+}
+
+p.dashed{
+ border:5px dashed red;  
+  
+}
+
+p.solid{
+  background-clip:border-box;
+ border:5px solid red;  
+  
+}
+p.groove{
+ border:5px groove red;  
+  
+}
+p.inset{
+ border:5px inset red;  
+  
+}
+p.outset{
+ border:5px outset red;  
+ border-right:80px dashed green;
+  text-align:center;
+  
+}
+p.mix{
+ border:5px mix red;  
+  
+}
+p.double{
+ border:10px ; 
+border-style:double dotted; 
+padding:15px;
+border-radius:39px;
+  
+}
+
+p.ridge{
+ border:5px ridge ; 
+ border-top-width:100px;
+ 
+  padding:25px;
+  border-color:yellow blue violet pink;
+  border-top-style:solid;
+  border-bottom-style:groove;
+  border-right-style:dashed;
+  border-left-style:double;
+}
+
+p.none{
+ border:5px none red;  
+  
+}
+p.hidden{
+ border:5px hidden red;  
+  
+}

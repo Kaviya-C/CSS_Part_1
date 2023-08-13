@@ -1,0 +1,8 @@
+p{
+  outline:4px dashed  green;
+  border:2px double red;
+  outline-offset:6px;
+  padding:30px;
+  margin:60px;
+  text-align:center;
+}

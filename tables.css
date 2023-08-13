@@ -1,0 +1,74 @@
+.table-one table{
+  width:100%;
+   border-collapse:seperate;
+  border-spacing:20px;
+  text-align:left;
+}
+/*
+th{
+  height:40px;
+}*/
+
+.table-one tr{
+  border:3px solid;
+ 
+}
+
+.table-one td, .table-one th{
+  color:red;
+  padding:10px;
+  height:20px;
+  text-align:center;
+  vertical-align:top;
+  border-bottom:4px solid #ddd;
+  
+}
+.table-one tr:nth-child(even){
+  background-color:#f2f2f2;
+}
+
+
+.table-one tr:hover{
+  background-color:blue;
+}
+
+
+.table-two table{
+  
+  border-collapse:collapse;
+  width:100%
+}
+
+.table-two th,.table-two td{
+  text-align:left;
+  padding:10px;
+  
+}
+
+tr:nth-child(even)
+{
+  background-color:#f2f2f2;
+}
+
+.table-two th
+{
+  background-color:green;
+}
+
+.table-two tr:hover{
+  background-color:hotpink;
+  
+}
+
+caption{
+  
+  caption-side:bottom;
+  
+}
+
+
+/*
+    overflow-x:auto---->responsive table if the content is not adjustable in the
+    screen then automatically one scroll bar is present at the bottom
+    bcoz of style="overflow-x:auto;"
+*/

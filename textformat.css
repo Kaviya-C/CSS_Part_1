@@ -1,0 +1,116 @@
+.first
+{
+padding:15px;
+  letter-spacing:4px;
+  text-align:center;
+  color:blue;
+  background-color:pink;
+  text-align-last:justify;
+  
+}
+h1
+{
+  
+  text-transform:uppercase;
+  text-align:center;
+}
+.normal{
+  unicode-bidi:normal;
+}
+
+.embed{
+  unicode-bidi:embed;
+  direction:rtl;
+}
+
+
+
+.bidi{
+  unicode-bidi:bidi-override;
+  direction:ltr;
+}
+.isolate{
+ unicode-bidi:isolate-override;
+ direction:ltr;
+}
+.plain{
+  unicode-bidi:plaintext;
+}
+
+.baseline{
+  vertical-align:baseline;
+  
+}
+
+.text-top{
+  vertical-align:text-top;
+  
+}
+
+.text-bottom{
+  vertical-align:text-bottom;
+}
+
+.sub{
+ vertical-align:middle; 
+}
+
+
+.super{
+  vertical-align:super;
+}
+.link{
+  
+  text-decoration:underline green dotted 4px;
+  text-transform:lowercase;
+}
+#new{
+  font-size:16px;
+  background-color:white;
+  letter-spacing:5px;
+  word-spacing:4px;
+  text-indent:55px;
+  line-height:3;
+  white-space:break-spaces;
+  color:white;
+
+text-shadow: 5px 5px 8px red, 5px  5px 5px blue ,5px 5px 4px yellow;
+
+}
+
+body{
+  
+  
+  font-family:Sofia,sans-serif;
+  font-size:30px;
+/*  font-style:italic;
+  font-weight:bold;
+  font-variant:small-caps;
+   font-family:"Copperplate",Fantasy
+  font-family:"Brush Script m7",Cursive;
+ font-family:"Times New Roman",serif;
+  font-family:Verdana,Sans-serif;
+  /*font-family:"Courier New",monospace;*/
+}
+
+a{
+  font-size:20px;
+}
+a:link{
+ text-decoration:none;
+ font-weight:bold;
+  color:red;
+}
+
+a:visited{
+  color:green;
+}
+
+a:hover{
+  text-decoration:underline;
+  color:black;
+}
+
+a:active{
+  color:yellow;
+}

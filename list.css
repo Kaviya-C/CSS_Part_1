@@ -1,0 +1,22 @@
+ul{
+  background:ff9999;
+  padding:20px;
+  
+  
+}
+
+
+ul li{
+  border:3px solid red;
+  background:#fe5;
+  color:darked;
+  padding:5px;
+  margin-left:35px;
+  width:20%;
+  /*display:inline-blocks;
+  margin:100px;
+  list-style-type:lower-roman;
+  list-style-image:url('on.gif');*/
+  list-style-position:inside;
+  
+}

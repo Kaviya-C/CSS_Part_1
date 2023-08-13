@@ -1,0 +1,66 @@
+
+body{
+  
+  background:#007891 no-repeat top;
+ /* background-image:url("bg.jpg");
+  background-repeat:no-repeat;
+  background-position:center,40px ;
+  background-attachment:fixed;
+  color:white;
+  font-size:40px;
+  text-align:center;
+  background-color:#f09;
+  background-color:rgb(200,190,200);*/
+  
+}
+
+#one{
+  border:8px dashed white;
+  background-color:pink;
+  background-clip:border-box;
+  padding:15px;
+  
+}
+
+#two{
+  border:3px dashed white;
+  background-color:pink;
+  background-clip:padding-box;
+  padding:30px;
+}
+
+#three{
+  border:3px dashed white;
+  background-color:pink;
+  background-clip:content-box;
+  padding:30px;
+}
+
+
+
+
+p{
+  text-align:center;
+  color:red;
+}
+
+#first{
+  text-align:center;
+  color:blue;
+}
+
+.center{
+  text-align:center;
+  color:violet;
+  }
+  
+p.center{
+  color:orange;
+  
+}
+
+p.line{
+  font-size:45px;
+  color:red;
+  
+}
